@@ -5,7 +5,7 @@ import torch
 from torch.nn import Dropout
 
 from allennlp.modules.feedforward import FeedForward
-from allennlp.modules.layer_norm import LayerNorm
+from torch.nn.modules.normalization import LayerNorm
 from allennlp.modules.seq2seq_encoders.multi_head_self_attention import MultiHeadSelfAttention
 from allennlp.modules.seq2seq_encoders.seq2seq_encoder import Seq2SeqEncoder
 from allennlp.nn.activations import Activation

@@ -17,7 +17,7 @@ from allennlp.modules.seq2seq_encoders.bidirectional_language_model_transformer 
     MultiHeadedAttention,
 )
 from allennlp.modules.seq2seq_decoders.decoder_net import DecoderNet
-from allennlp.modules.layer_norm import LayerNorm
+from torch.nn.modules.normalization import LayerNorm
 
 
 @DecoderNet.register("stacked_self_attention")

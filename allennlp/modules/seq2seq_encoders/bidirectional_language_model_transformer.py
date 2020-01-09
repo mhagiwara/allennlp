@@ -16,7 +16,7 @@ import torch
 import torch.nn.functional as F
 
 from allennlp.common.checks import ExperimentalFeatureWarning
-from allennlp.modules.layer_norm import LayerNorm
+from torch.nn.modules.normalization import LayerNorm
 from allennlp.modules.seq2seq_encoders.seq2seq_encoder import Seq2SeqEncoder
 from allennlp.nn import util
 
